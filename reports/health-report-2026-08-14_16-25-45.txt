@@ -1,0 +1,33 @@
+======================================
+       UBUNTU SYSTEM HEALTH CHECK
+======================================
+
+Date and Time:
+Fri Aug 14 16:25:45 WAT 2026
+
+Hostname:
+obianuju-PC
+
+Uptime:
+ 16:25:45 up 31 min,  1 user,  load average: 0.13, 0.04, 0.01
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd        251G  5.4G  233G   3% /
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       446Mi       3.3Gi       3.5Mi       199Mi       3.3Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+Top Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         228  0.0  0.5 107036 23304 ?        Ssl  15:54   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          57  0.1  0.4  66836 19620 ?        S<s  15:54   0:02 /usr/lib/systemd/systemd-journald
+root         890  0.4  0.3 1830104 13584 ?       Ssl  16:25   0:00 /usr/libexec/wsl-pro-service
+systemd+     161  0.0  0.3  21344 13228 ?        Ss   15:54   0:00 /usr/lib/systemd/systemd-resolved
+root           1  0.0  0.3  21680 13160 ?        Ss   15:54   0:01 /sbin/init
+
+======================================
+       HEALTH CHECK COMPLETE
+======================================
