@@ -10,7 +10,7 @@ mkdir -p "$BACKUP_DIR"
 
 if tar -czf "$BACKUP_FILE" "$PROJECT_DIR/scripts"; then
     echo "Backup completed successfully."
-    echo "Backup created: $BACKUP_FILE"
+    echo "Backup created: $BACKUP_FILE
 else
     echo "Backup failed."
 fi
