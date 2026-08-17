@@ -35,3 +35,23 @@ devops-system-automation/
 │
 └── .gitignore
 
+
+How to Run
+
+Make the scripts executable:
+
+chmod +x scripts/*.sh
+
+Run the health check:
+
+./scripts/system-health.sh
+
+Run the backup:
+
+./scripts/backup.sh
+Technologies
+Ubuntu WSL
+Bash
+Linux
+Git
+GitHub
